@@ -14,7 +14,7 @@ var userBackgroundColor = ko.observable().extend({ localStorage: 'userBackground
 The value of userBackgroundColor in that example will be retreived and stored to the LocalStorage key `userBackgroundStore`.
 
 
-Even though LocalStorage stores everything as a string, ko-localstorage.js automatically handles boolean values.
+Even though LocalStorage stores everything as a string, ko-localstorage.js automatically handles boolean and number values.
 
 
 
