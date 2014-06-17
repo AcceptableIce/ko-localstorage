@@ -3,7 +3,7 @@ ko-localstorage.js
 
 **ko-localstorage.js** is a [knockout.js][1] binding extension that automatically retrieves that value of an observable from HTML5 LocalStorage when bindings are applied, and saves the binding's value to LocalStorage whenever its value changes.
 
-Created by Jake Roussel ([@AcceptableIce][2])
+Created by May Roussel ([@Corvimae][2])
 
 **Usage**
 Extend the observable with an object that contains a `localStorage` element.
@@ -19,4 +19,4 @@ Even though LocalStorage stores everything as a string, ko-localstorage.js autom
 
 
   [1]: http://www.knockoutjs.com
-  [2]: http://twitter.com/acceptableice
+  [2]: http://twitter.com/Corvimae
